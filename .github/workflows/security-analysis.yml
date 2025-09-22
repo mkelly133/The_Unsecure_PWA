@@ -19,7 +19,7 @@ on:
 env:
   # CRITICAL: Set this to true to enable the security analysis
   # Default is false to prevent accidental runs in forks
-  SECURITY_ANALYSIS_ENABLED: false
+  SECURITY_ANALYSIS_ENABLED: true
 
 jobs:
   check-config:
